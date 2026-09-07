@@ -1,4 +1,4 @@
-const CACHE_NAME = 'code-detox-v1';
+const CACHE_NAME = 'code-detox-v2';
 const APP_SHELL = [
   './',
   './index.html',
