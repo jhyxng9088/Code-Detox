@@ -96,7 +96,7 @@ const candidateList = document.getElementById('candidateList');
 const copyAll = document.getElementById('copyAll');
 const toast = document.getElementById('toast');
 
-let mode = 'encrypt';
+let mode = 'decrypt';
 let currentResults = [];
 let toastTimer;
 
@@ -220,4 +220,4 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-setMode('encrypt');
+setMode('decrypt');
